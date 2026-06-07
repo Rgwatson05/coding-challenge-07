@@ -4,7 +4,7 @@ const input = document.getElementById("headlineInput");
 const button = document.getElementById("updateButton");
 const cta = document.getElementById("cta");
 
-// Update CTA when button is clicked
+// Change the CTA headline using user input
 
 button.addEventListener("click", function () {
     cta.textContent = input.value;
